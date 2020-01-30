@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: I got something here.
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
+heading: Theories and subjects of substance is the elementary element that fuels the minds within our axis.
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Why Kaldi
