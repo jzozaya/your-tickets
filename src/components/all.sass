@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap')
 @import "~bulma/sass/utilities/initial-variables"
 
+// font-family: 'Oswald', sans-serif
+// font-family: 'Roboto', sans-serif
 // Config vars
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #ff5405
@@ -9,21 +12,25 @@ $kaldi-red-invert: #fff
 
 $dark-brown: #26252d
 $orange-text: #ff5405
+$roboto: 'Roboto', sans-serif
 
       
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
-$body-color: #333
+// $body-color: #333
+$body-color: #fafafa
+$big-text-color: #4a4a4a
 $black: #2b2523
 
 body, .navbar
   background-color: #171717 !important
+  font-family: $roboto !important
 
 ::selection
   color: blue
   background: transparent
 
-.section--gradient, .navbar
+.section--gradient, .navbar, .footer
   background-image: linear-gradient(rgba(136,134,129,.1),rgba(136,134,129,.1)),linear-gradient(rgba(136,134,129,.1),rgba(136,134,129,.1)),linear-gradient(rgba(136,134,129,.1),rgba(136,134,129,.1))
   background-repeat: repeat-y
   background-position: left 58px top,right 58px top,center top
@@ -34,8 +41,6 @@ body, .navbar
 .section
   background-color: $grey-lightest
   background-color: transparent
-  
-  
   // background-image: linear-gradient(rgba(41,37,36,0) 0%,#292524 100%) !important
   // border-bottom: 0 !important
   // background-attachment: scroll
@@ -58,6 +63,10 @@ body, .navbar
     margin-bottom: 1.5rem
     margin-top: 0
 
+.content h1, .content h2, .content h3, .content h4
+  color: $big-text-color !important
+  line-height: 1.4 !important
+
 // Helper Classes
 .full-width-image-container
   width: 100vw
@@ -74,7 +83,7 @@ body, .navbar
 
 .full-width-image
     width: 100vw
-    height: 400px
+    height: 65vh
     background-size: cover
     background-position: bottom
     display: flex
@@ -109,7 +118,11 @@ body, .navbar
   height: 1.5rem
   fill: currentColor
 .navbar-brand .navbar-item.logo
-  padding: 0 1rem
+  padding: 0 .1rem
+
+.navbar-item img
+  max-height: 2.2rem !important
+
 footer.footer
   padding: 3rem 0rem 0rem
   background-color: transparent

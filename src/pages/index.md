@@ -1,16 +1,13 @@
 ---
 templateKey: index-page
 title: I got something here.
-image: /img/home-jumbotron.jpg
+image: /img/hero-jumbotron.jpg
 heading: Theories and subjects of substance is the elementary element that fuels the minds within our axis.
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: Why Kaldi
+  title: Theories and subjects of substance is the elementary element that fuels the minds within our axis.
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Regardless of the staggering dimensions of the world about us, the density of our ignorance, the risks of catastrophes to come, and our individual weakness within the immense collectivity, the fact remains that we are absolutely free today if we choose to will our existence in its finiteness, a finiteness which is open on the infinite. And in fact, any man who has known real loves, real revolts, real desires, and real will knows quite well that he has no need of any outside guarantee to be sure of his goals; their certitude comes from his own drive.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
