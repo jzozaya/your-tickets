@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: I got something here.
-image: /img/hero-jumbotron.jpg
+title: Your core narrative is what you sell beyond your product.
+image: /pictures/nasa-04.jpg
 heading: Theories and subjects of substance is the elementary element that fuels the minds within our axis.
-subheading: Support sustainable farming while enjoying a cup
+subheading: To find your core narrative, find out what success looks like for your customers and help them to get there.
 mainpitch:
   title: Theories and subjects of substance is the elementary element that fuels the minds within our axis.
   description: >

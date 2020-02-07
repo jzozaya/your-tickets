@@ -34,6 +34,7 @@ export const IndexPageTemplate = ({
           justifyContent: 'space-around',
           alignItems: 'left',
           flexDirection: 'column',
+          paddingLeft: '10%'
         }}
       >
         <h1
@@ -41,10 +42,11 @@ export const IndexPageTemplate = ({
           style={{
             boxShadow:
               'rgb(255, 68, 0) 0.15rem 0px 0px, rgb(255, 68, 0) -0.15rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+            backgroundColor: 'rgba(255, 68, 0, .95)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+            maxWidth: '80%'
           }}
         >
           {title}
@@ -58,13 +60,13 @@ export const IndexPageTemplate = ({
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+            maxWidth: '85%'
           }}
         >
           {subheading}
         </h3>
       </div>
     </div>
-    
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
