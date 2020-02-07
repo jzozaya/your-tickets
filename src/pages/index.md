@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Your core narrative is what you sell beyond your product.
-image: /pictures/nasa-04.jpg
+image: /img/OLD-home-jumbotron.jpg
 heading: Theories and subjects of substance is the elementary element that fuels the minds within our axis.
 subheading: To find your core narrative, find out what success looks like for your customers and help them to get there.
 mainpitch:
