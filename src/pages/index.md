@@ -9,10 +9,9 @@ mainpitch:
   description: >
     Regardless of the staggering dimensions of the world about us, the density of our ignorance, the risks of catastrophes to come, and our individual weakness within the immense collectivity, the fact remains that we are absolutely free today if we choose to will our existence in its finiteness, a finiteness which is open on the infinite. And in fact, any man who has known real loves, real revolts, real desires, and real will knows quite well that he has no need of any outside guarantee to be sure of his goals; their certitude comes from his own drive.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  She told me this simple tale in a relaxed hour, and I reciprocated with a condensed version of my own earlier life. For the rest, however, both then and in the future, conversation played a very minor role in our association, for Rozsa restricted herself to simple, practical directions and commands, accompanied by short, excited cries, which were survivals from her earliest youth — that is, from the circus ring. But on those occasions when our conversation took a broader turn, it was devoted to mutual admiration and praise, for the promise that we had held for each other at our first encounter was richly confirmed, and my mistress, for her part, gave me repeated and unsolicited assurance that my adroitness and prowess in love exceeded her fondest expectations.
+
+
 intro:
   blurbs:
     - image: /img/coffee.png

@@ -51,7 +51,7 @@ export const IndexPageTemplate = ({
           style={{
             boxShadow:
               'rgb(255, 68, 0) 0.15rem 0px 0px, rgb(255, 68, 0) -0.15rem 0px 0px',
-            backgroundColor: 'rgba(255, 68, 0, .95)',
+            backgroundColor: 'rgba(255, 68, 0, .7)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -65,7 +65,7 @@ export const IndexPageTemplate = ({
           style={{
             boxShadow:
               'rgb(255, 68, 0) 0.15rem 0px 0px, rgb(255, 68, 0) -0.15rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+            backgroundColor: 'rgba(255, 68, 0, .4)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -80,7 +80,7 @@ export const IndexPageTemplate = ({
       <div className="container">
         <div className="section">
           <div className="columns">
-            <div className="column is-10 is-offset-1">
+            <div className="column is-6">
               <div className="content">
                 <div className="content">
                   <div className="tile">
@@ -99,14 +99,14 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 {/* <Features gridItems={intro.blurbs} /> */}
-                <div className="columns">
+                {/* <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
-                      See all products
+                      Take Me There
                     </Link>
                   </div>
-                </div>
-                <div className="column is-12">
+                </div> */}
+                {/* <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
                   </h3>
@@ -115,6 +115,31 @@ export const IndexPageTemplate = ({
                     <Link className="btn" to="/blog">
                       Read more
                     </Link>
+                  </div>
+                </div> */}
+              </div>
+            </div>
+          
+            <div className="column is-4 is-offset-1">
+              <div className="content">
+                <div className="content">
+                  <div className="tile">
+                    <h2 className="title">
+                     You know what kind of plan never fails? No plan at all. No plan. You know why? If you make a plan, life never works out that way. Look around us, did these people think 'Let's all spend the night in a gym?' But look now, everyone's sleeping on the floor, us included. That's why people shouldn't make plans. With no plan, nothing can go wrong and if something spins out of control, it doesn't matter. Whether you kill someone or betray your country. None of it f*cking matters. Got it?
+                    </h2>
+                  </div>
+                  <div className="tile">
+                    <h3 className="subtitle">
+                     After prolonged jolting and rattling the carriage finally stopped, we got out, and my friend paid the driver. Then we went upward through a dark, cold stairwell which smelled of dead lamp-wicks, and my guide opened the door to her room, just opposite the stairs. Here it was suddenly very warm; the smell of a greatly over-heated iron stove mingled with the heavy, flowery scent of cosmetics, and when the hanging lamp was lighted, a deep-red glow suffused the room. Comparative luxury surrounded me; on little velvet-topped tables stood colourful vases with dried sheaves of palm leaves, paper flowers, and peacocks' feathers; soft, furry hides lay about; a canopy bed with hangings of red wool adorned with gold braid dominated the room, and there was a great abundance of mirrors, even in places where one does not ordinarily expect them — as, for instance, in the canopy of the bed and in the wall at its side. But since we were filled with longing to know each other completely, we set to work at once, and I stayed with her until the following morning.
+                    </h3>
+                  </div>
+                </div>
+                <div className="columns">
+                  <div className="column is-12">
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      {heading}
+                    </h3>
+                    <p>After prolonged jolting and rattling the carriage finally stopped, we got out, and my friend paid the driver. Then we went upward through a dark, cold stairwell which smelled of dead lamp-wicks, and my guide opened the door to her room, just opposite the stairs. Here it was suddenly very warm; the smell of a greatly over-heated iron stove mingled with the heavy, flowery scent of cosmetics, and when the hanging lamp was lighted, a deep-red glow suffused the room. Comparative luxury surrounded me; on little velvet-topped tables stood colourful vases with dried sheaves of palm leaves, paper flowers, and peacocks' feathers; soft, furry hides lay about; a canopy bed with hangings of red wool adorned with gold braid dominated the room, and there was a great abundance of mirrors, even in places where one does not ordinarily expect them — as, for instance, in the canopy of the bed and in the wall at its side. But since we were filled with longing to know each other completely, we set to work at once, and I stayed with her until the following morning.</p>
                   </div>
                 </div>
               </div>
